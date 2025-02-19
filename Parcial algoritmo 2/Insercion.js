@@ -12,8 +12,8 @@ function insercionPorAnio(array) {
         clave = array[i];
         j = i - 1;
 
-        // Compara por año de publicación (anio)
-        while (j >= 0 && array[j].anio > clave.anio) {  // CAMBIO AQUÍ
+        
+        while (j >= 0 && array[j].anio > clave.anio) {  
             array[j + 1] = array[j];
             j = j - 1;
         }
@@ -27,8 +27,6 @@ const librosOrdenadosPorAnio = insercionPorAnio(libros);
 console.timeEnd("insercionPorAnio");
 
 console.log("Array ordenado por año:", librosOrdenadosPorAnio);
-
-
 
 
 
