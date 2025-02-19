@@ -24,11 +24,11 @@ function burbuja (){
 return libros;
 }
 
+console.time("burbuja"); 
 console.log(burbuja());
+console.timeEnd("burbuja");   
 
     
-
-
 
 
 
