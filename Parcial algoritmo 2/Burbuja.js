@@ -33,5 +33,4 @@ console.timeEnd("burbuja");
 
 
 // • Orden alfabético por título del libro. 
-// • Orden por año de publicación (del más antiguo al más reciente). 
-// • Orden por cantidad de reservas (de más a menos solicitado).
+
